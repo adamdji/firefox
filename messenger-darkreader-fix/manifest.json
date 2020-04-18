@@ -2,13 +2,19 @@
     "manifest_version": 2,
     "name": "Messenger Dark Reader Fix",
     "version": "1.0",
-
+    "developer": {
+        "name": "Adam A",
+        "url": "https://github.com/adamdji/firefox"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "strict_min_version": "70.0"
+        }
+    },
     "description": "Fixes horizontal scrollbar that shows up in messenger with dark reader enabled",
-    "homepage_url": "https://github.com/adamdji/firefox",
     "permissions": [
         "activeTab"
     ],
-    
     "content_scripts": [
         {
             "matches": [

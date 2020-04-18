@@ -21,6 +21,8 @@
   "homepage": "https://github.com/adamdji/firefox#readme",
   "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
     "typescript": "^3.8.3"
   }
 }

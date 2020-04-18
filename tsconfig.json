@@ -3,6 +3,6 @@
         "target": "ESNext"
     },
     "include": [
-        "messenger/*"
+        "messenger-darkreader-fix/*"
     ]
 }

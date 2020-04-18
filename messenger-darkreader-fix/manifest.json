@@ -5,11 +5,18 @@
 
     "description": "Fixes horizontal scrollbar that shows up in messenger with dark reader enabled",
     "homepage_url": "https://github.com/adamdji/firefox",
-
+    "permissions": [
+        "activeTab"
+    ],
+    
     "content_scripts": [
         {
-            "matches": ["https://www.messenger.com/*"],
-            "js": ["messenger-fix.js"]
+            "matches": [
+                "https://www.messenger.com/*"
+            ],
+            "js": [
+                "messenger-fix.js"
+            ]
         }
     ]
 }

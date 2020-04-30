@@ -4,7 +4,7 @@
     "version": "1.0",
     "developer": {
         "name": "Adam A",
-        "url": "https://github.com/adamdji/firefox"
+        "url": "https://github.com/oceansofcode/firefox"
     },
     "browser_specific_settings": {
         "gecko": {

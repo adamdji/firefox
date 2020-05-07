@@ -1,12 +1,9 @@
-new MutationObserver(function (mutationList, observer) {
-    mutationList.forEach(function (mutation) {
-        mutation.addedNodes.forEach(function (node) {
-            if (node.nodeName === 'DIV' && node.nodeType === Node.ELEMENT_NODE) {
-                var foundDiv = node;
-                if (foundDiv.style.left === '9007200000000000px') {
-                    foundDiv.setAttribute('style', '');
-                    observer.disconnect();
-                }
+new MutationObserver((mutationList, observer) => {
+    mutationList.forEach(mutation => {
+        mutation.addedNodes.forEach(node => {
+            if (node instanceof HTMLDivElement && node.style.left === '9007200000000000px') {
+                node.setAttribute('style', '');
+                observer.disconnect();
             }
         });
     });

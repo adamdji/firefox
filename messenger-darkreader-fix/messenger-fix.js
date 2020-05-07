@@ -1,4 +1,5 @@
 (() => {
+    // body > div:nth-child(148) is CSS-Selector from browser
     const uselessDivSelector = 'div[style="left: 9007200000000000px; width: 100%; height: 100%; position: fixed;"';
     const intervalTime = 100;
     let interval;
@@ -18,3 +19,4 @@
         console.log(error);
     }
 })();
+//# sourceMappingURL=messenger-fix.js.map

@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "target": "ESNext"
+        "target": "ESNext",
+        "sourceMap": true
     },
     "include": [
         "messenger-darkreader-fix/*"

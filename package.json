@@ -4,7 +4,8 @@
   "description": "Web Extensions for FireFox",
   "main": "messenger-fix.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,10 @@
   "homepage": "https://github.com/oceansofcode/firefox#readme",
   "dependencies": {},
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
     "chai": "^4.2.0",
+    "eslint": "^6.8.0",
     "mocha": "^7.1.1",
     "typescript": "^3.8.3"
   }
